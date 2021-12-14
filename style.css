@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: white;
+}
+
+body {
+  background: url(./img/bg-2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-origin: border-box;
+  color: white;
+  font-family: "Oswald", sans-serif, Arial, Helvetica;
+}
+
+header {
+  background: rgba(0, 33, 88, 0.5);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+main {
+  width: auto;
+  height: auto;
+  font-weight: 300;
+}
+
+.bg-2 {
+  max-width: 55%;
+  margin: 20px;
+  padding: 30px;
+  background: rgba(0, 33, 88, 0.5);
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.bg-2 p {
+  padding-bottom: 10px;
+}
+
+.bg-2 input {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(0, 56, 148, 1);
+  color: white;
+  font-family: "Oswald", sans-serif, Arial, Helvetica;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(0, 56, 148, 1);
+  color: white;
+  font-family: "Oswald", sans-serif, Arial, Helvetica;
+  font-size: 15px;
+}
+
+#text {
+  margin-top: 30px;
+}
+#image {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+footer {
+  background: rgba(0, 33, 88, 0.5);
+  padding: 25px 0;
+  text-align: center;
+  font-weight: lighter;
+}

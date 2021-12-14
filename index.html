@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>APOD NASA</title>
+  </head>
+  <body>
+    <header>
+      <h1>APOD</h1>
+      <p>Astronomy Picture of the Day</p>
+    </header>
+    <main>
+      <div class="bg-2">
+        <p>Explore the space images made available every day by NASA!</p>
+        <section>
+          <label for="date-select">Select a date: </label>
+          <input id="date" name="date-select" type="date" required />
+          <button id="search">Search</button>
+        </section>
+        <p id="text">
+          In this snapshot from November 18, the Full Moon was not far from
+          Earth's shadow. In skies over Sicily the brightest lunar phase was
+          eclipsed by passing clouds though. The full moonlight was dimmed and
+          momentarily diffracted by small but similar sized water droplets near
+          the edges of the high thin clouds. The resulting iridescence shines
+          with colors like a lunar corona. On that night, the Full Moon was also
+          seen close to the Pleiades star cluster appearing at the lower left of
+          the iridescent cloud bank. The stars of the Seven Sisters were soon to
+          share the sky with a darker, reddened lunar disk.
+        </p>
+        <p id="author">By: Marcella Giulia Pace</p>
+        <img
+          id="image"
+          src="https://apod.nasa.gov/apod/image/2112/IridescenzaLunaPleiadi1024.jpg"
+        />
+      </div>
+    </main>
+    <footer>
+      <p>
+        © Copyright APOD | RESÍLIA - 2021 | Created by:
+        <a href="https://github.com/thaihc">Thaís Carvalho</a>
+      </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
