@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 a {
-  color: white;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgba(0, 33, 88, 1);
+  cursor: pointer;
 }
 
 body {
-  background: url(./img/bg-2.png);
+  background: url(../img/bg-2.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -44,8 +50,8 @@ main {
   border-radius: 30px;
 }
 
-.bg-2 p {
-  padding-bottom: 10px;
+.init {
+  padding-bottom: 30px;
 }
 
 .bg-2 input {
@@ -71,6 +77,7 @@ button {
 
 #text {
   margin-top: 30px;
+  padding-bottom: 10px;
 }
 #image {
   margin-top: 30px;

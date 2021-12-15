@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>APOD NASA</title>
   </head>
   <body>
@@ -18,10 +18,12 @@
     </header>
     <main>
       <div class="bg-2">
-        <p>Explore the space images made available every day by NASA!</p>
+        <p class="init">
+          Explore the space images made available every day by NASA!
+        </p>
         <section>
           <label for="date-select">Select a date: </label>
-          <input id="date" name="date-select" type="date" required />
+          <input id="date-select" name="date-select" type="date" required />
           <button id="search">Search</button>
         </section>
         <p id="text">
@@ -49,6 +51,6 @@
       </p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>
