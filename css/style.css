@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: rgba(0, 33, 88, 1);
+  color: #ad1411;
   cursor: pointer;
 }
 
@@ -35,6 +35,9 @@ header h1 {
   font-size: 40px;
 }
 
+.ncolor {
+  color: #ad1411;
+}
 main {
   width: auto;
   height: auto;
@@ -73,6 +76,13 @@ button {
   color: white;
   font-family: "Oswald", sans-serif, Arial, Helvetica;
   font-size: 15px;
+  transition: 1s all;
+}
+
+button:hover {
+  cursor: pointer;
+  font-size: 20px;
+  color: #ad1411;
 }
 
 #text {
