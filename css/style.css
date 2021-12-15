@@ -41,6 +41,8 @@ header h1 {
 main {
   width: auto;
   height: auto;
+  display: flex;
+  justify-content: flex-start;
   font-weight: 300;
 }
 
@@ -114,4 +116,28 @@ footer {
   padding: 25px 0;
   text-align: center;
   font-weight: lighter;
+}
+
+@media (max-width: 770px) {
+  body {
+    background-size: cover;
+    background-position: right;
+  }
+  main {
+    justify-content: center;
+  }
+  .bg-2 {
+    min-width: 80%;
+    margin: 30px;
+    padding: 20px;
+  }
+  .bg-2 input {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  button {
+    margin: 0;
+    margin-top: 20px;
+  }
 }
