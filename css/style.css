@@ -85,13 +85,27 @@ button:hover {
   color: #ad1411;
 }
 
+#title {
+  margin-top: 30px;
+  color: #ad1411;
+  font-weight: 400;
+}
 #text {
   margin-top: 30px;
   padding-bottom: 10px;
 }
+
 #image {
   margin-top: 30px;
   width: 100%;
+  border-radius: 20px;
+}
+
+#video {
+  display: none;
+  margin-top: 30px;
+  width: 100%;
+  height: 50vh;
   border-radius: 20px;
 }
 
