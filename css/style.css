@@ -125,8 +125,9 @@ footer {
 
 @media (max-width: 770px) {
   body {
+    background: url(../img/bg-3.png);
     background-size: cover;
-    background-position: right;
+    background-position: center;
   }
   main {
     justify-content: center;
