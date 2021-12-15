@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>APOD NASA</title>
   </head>
 
@@ -35,28 +35,33 @@
           <button id="search">Search</button>
         </section>
 
-        <p id="title">Iridescent by Moonlight</p>
+        <div class="space">
+          <p id="title">Iridescent by Moonlight</p>
 
-        <p id="text">
-          In this snapshot from November 18, the Full Moon was not far from
-          Earth's shadow. In skies over Sicily the brightest lunar phase was
-          eclipsed by passing clouds though. The full moonlight was dimmed and
-          momentarily diffracted by small but similar sized water droplets near
-          the edges of the high thin clouds. The resulting iridescence shines
-          with colors like a lunar corona. On that night, the Full Moon was also
-          seen close to the Pleiades star cluster appearing at the lower left of
-          the iridescent cloud bank. The stars of the Seven Sisters were soon to
-          share the sky with a darker, reddened lunar disk.
-        </p>
+          <p id="date-init">2021-12-04</p>
 
-        <p id="author">By: Marcella Giulia Pace</p>
+          <p id="text">
+            In this snapshot from November 18, the Full Moon was not far from
+            Earth's shadow. In skies over Sicily the brightest lunar phase was
+            eclipsed by passing clouds though. The full moonlight was dimmed and
+            momentarily diffracted by small but similar sized water droplets
+            near the edges of the high thin clouds. The resulting iridescence
+            shines with colors like a lunar corona. On that night, the Full Moon
+            was also seen close to the Pleiades star cluster appearing at the
+            lower left of the iridescent cloud bank. The stars of the Seven
+            Sisters were soon to share the sky with a darker, reddened lunar
+            disk.
+          </p>
 
-        <img
-          id="image"
-          src="https://apod.nasa.gov/apod/image/2112/IridescenzaLunaPleiadi1024.jpg"
-        />
+          <p id="author">By: Marcella Giulia Pace</p>
 
-        <iframe id="video"></iframe>
+          <img
+            id="image"
+            src="https://apod.nasa.gov/apod/image/2112/IridescenzaLunaPleiadi1024.jpg"
+          />
+
+          <iframe id="video"></iframe>
+        </div>
       </div>
     </main>
 
@@ -68,6 +73,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

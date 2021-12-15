@@ -1,9 +1,10 @@
 let but = $("#search");
+let title = $("#title");
+let chosenDate = $("#date-init");
 let text = $("#text");
 let author = $("#author");
 let images = $("#image");
 let video = $("#video");
-let title = $("#title");
 
 but.on("click", function () {
   let date = $("#date-select").val();
@@ -14,6 +15,7 @@ but.on("click", function () {
 
     success: function (response) {
       title.html(`${response.title}`);
+      chosenDate.html(`${response.date}`);
       text.html(`${response.explanation}`);
       author.html(`By: ${response.copyright}`);
       if (response.media_type == "image") {
@@ -23,7 +25,6 @@ but.on("click", function () {
         document.getElementById("video").style.display = "block";
         video.attr("src", response.url);
       }
-
       return response;
     },
   });
